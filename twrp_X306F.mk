@@ -7,13 +7,9 @@
 
 # Inherit from those products. Most specific first.
 
-$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/aosp_base.mk)
-$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
+ALLOW_MISSING_DEPENDENCIES= true
 
-# Inherit from X306F device
-$(call inherit-product, device/lenovo/X306F/device.mk)
+$(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit some common twrp stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -23,4 +19,4 @@ PRODUCT_DEVICE := X306F
 PRODUCT_NAME := twrp_X306F
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-X306F
-PRODUCT_MANUFACTURER := lenovo
+PRODUCT_MANUFACTURER := LENOVO
