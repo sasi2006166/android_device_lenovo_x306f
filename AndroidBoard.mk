@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),X306F)
+ifeq ($(TARGET_DEVICE),amar_row_wifi)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

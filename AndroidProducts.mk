@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_X306F.mk
+    $(LOCAL_DIR)/twrp_amar_row_wifi.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_X306F-user \
-    twrp_X306F-userdebug \
-    twrp_X306F-eng
+    twrp_amar_row_wifi-user \
+    twrp_amar_row_wifi-userdebug \
+    twrp_amar_row_wifi-eng

@@ -15,8 +15,8 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X306F
-PRODUCT_NAME := twrp_X306F
+PRODUCT_DEVICE := amar_row_wifi
+PRODUCT_NAME := twrp_amar_row_wifi
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo TB-X306F
-PRODUCT_MANUFACTURER := LENOVO
+PRODUCT_MODEL := Tab M10 2nd 
+PRODUCT_MANUFACTURER := Lenovo
